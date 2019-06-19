@@ -66,10 +66,11 @@
         </div>
         <div class="modal-body">
           <div class="form-group">
+            <section class="jumbotron">
             <form method="POST"  action="sucesso.php">
               <input type="text" name="nomeProduto" value="<?php echo $produto["nome"];?>" hidden>
               <input type="text" name="nomeCliente" placeholder-"Nome Completo" >
-            </div>
+            </section>
             <div class="form-group">
              <input type="number" name="cpfCliente" placeholder-"CPF" >
            </div>
@@ -89,6 +90,7 @@
           <button type="submit" class="btn btn-success">Finalizar compra</button>
 
         </form>
+      </section> 
       </div>
     </div>
   </div>
